@@ -134,7 +134,6 @@ header {
   position: relative;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .prevNext p {
@@ -256,7 +255,7 @@ header {
 }
 @media (max-width: 480px) {
   header,
-.main {
+  .main {
     padding: 20px;
   }
   .content .text h2 {
